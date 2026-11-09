@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lyricsmod",
+  "version": "${version}",
+  "name": "Spotify Lyrics",
+  "description": "Spotify'da calan sarkinin sozlerini oyuncunun etrafinda gosterir.",
+  "authors": ["Sen"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.lyricsmod.LyricsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
